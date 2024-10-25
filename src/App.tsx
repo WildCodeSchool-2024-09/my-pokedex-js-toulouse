@@ -1,7 +1,8 @@
+import PokemonCard from "./components/PokemonCard";
 import "./App.css";
 
 function App() {
-  return <p>Pokedex</p>;
+  return <PokemonCard />;
 }
 
 export default App;
