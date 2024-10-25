@@ -2,10 +2,15 @@ interface PokemonCardProps {
   pokemon: {
     name: string;
     imgSrc?: string;
+    id: number;
   };
 }
 
 function PokemonCard({ pokemon }: PokemonCardProps) {
+  if (pokemon.id === 4) {
+    alert("Pika Pikachu!!!");
+  }
+
   return (
     <>
       <figure>
