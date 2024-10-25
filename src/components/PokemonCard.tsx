@@ -6,8 +6,6 @@ interface PokemonCardProps {
 }
 
 function PokemonCard({ pokemon }: PokemonCardProps) {
-  console.log(pokemon);
-
   return (
     <>
       <figure>
